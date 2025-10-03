@@ -155,3 +155,10 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.page-container {
+  max-width: 1200px;   /* limit on large screens */
+  width: 100%;         /* allow shrinking */
+  margin: 0 auto;      /* center the content */
+  padding: 0 1rem;     /* spacing from edges */
+}
